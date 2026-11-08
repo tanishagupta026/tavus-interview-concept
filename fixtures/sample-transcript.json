@@ -1,0 +1,96 @@
+{
+  "conversationId": "sample",
+  "source": "fixture",
+  "utterances": [
+    {
+      "t": 0,
+      "speaker": "interviewer",
+      "text": "Hi, before we start: I'm an AI interviewer, not a person. This is a roughly five-minute conversation. For the first part I'll play the CEO of a mid-sized logistics company who is skeptical about AI. Then I'll step out of that role and ask you one question about your own work. A person reviews the transcript and summary and makes the decision. You can ask me to clarify or pause at any point. Ready?"
+    },
+    {
+      "t": 22,
+      "speaker": "candidate",
+      "text": "Ready. Can I ask one thing first: how big is the company, roughly?"
+    },
+    {
+      "t": 28,
+      "speaker": "interviewer",
+      "text": "Good question to ask. About 1,200 people, three distribution centers, revenue around 400 million. Okay, I'm in role now. We've spent a little over two million dollars on AI pilots in two years. A chatbot, a forecasting tool, some document thing. I can't point to one process that works differently. Why should I spend another dollar?"
+    },
+    {
+      "t": 48,
+      "speaker": "candidate",
+      "text": "Honestly, I wouldn't ask you to, not yet. I'd want to spend the first two weeks finding out why the pilots didn't stick. My guess is they were picked because the technology was interesting, not because someone owned a metric. So I'd start with one process where there's a clear cost, like how long it takes to reconcile carrier invoices, and get the person who owns that number to own the project."
+    },
+    {
+      "t": 78,
+      "speaker": "interviewer",
+      "text": "That sounds nice in a slide. My CFO will ask what that's worth. Give me a number."
+    },
+    {
+      "t": 84,
+      "speaker": "candidate",
+      "text": "I can't give you a credible number without your data, and I'd be suspicious of anyone who did in the first meeting. What I can tell you is how I'd get one. At a previous client, invoice reconciliation took a team of six about three days each month. We measured it for two cycles before building anything, and the tool cut it to under one day. That's the kind of baseline I'd set before asking you for budget."
+    },
+    {
+      "t": 112,
+      "speaker": "interviewer",
+      "text": "We already tried this. The forecasting pilot had a baseline too. Accuracy improved on paper and the planners ignored it."
+    },
+    {
+      "t": 122,
+      "speaker": "candidate",
+      "text": "That's a common failure, and it usually means the planners weren't involved in designing it. If the output shows up in a separate dashboard they don't trust, they'll keep using their spreadsheet. I'd put the planners in the room from week one and have the tool's output land inside the spreadsheet they already use."
+    },
+    {
+      "t": 146,
+      "speaker": "interviewer",
+      "text": "And if it gets something wrong? I've got customers, contracts, and a union. Who's on the hook?"
+    },
+    {
+      "t": 154,
+      "speaker": "candidate",
+      "text": "A person stays on the hook. For anything customer-facing or contractual, the tool drafts and a named person approves. We'd also agree up front on what error rate means stop, and I'd want the union rep briefed before the pilot starts, not after. I don't have a full answer on the contract side. I'd want your legal team to tell me where the lines are."
+    },
+    {
+      "t": 180,
+      "speaker": "interviewer",
+      "text": "Okay. I'm stepping out of the CEO role now. One question about you: tell me about a time something you owned didn't work, and what you did about it."
+    },
+    {
+      "t": 190,
+      "speaker": "candidate",
+      "text": "Last year I led the rollout of a scheduling tool for a field service team. Adoption was about thirty percent after six weeks. I'd assumed the problem was training, so we ran more training, and nothing changed. When I actually rode along with two technicians, I saw the tool needed signal in places where they had none. That was my miss, I hadn't tested it in the field."
+    },
+    {
+      "t": 222,
+      "speaker": "interviewer",
+      "text": "What did you change after the ride-along?"
+    },
+    {
+      "t": 226,
+      "speaker": "candidate",
+      "text": "We added an offline mode and cut the form from fourteen fields to five. Adoption got to about seventy percent over the next two months. I also changed how I start projects: I do a field visit before I write requirements."
+    },
+    {
+      "t": 244,
+      "speaker": "interviewer",
+      "text": "Who decided to cut the fields, you or the team?"
+    },
+    {
+      "t": 248,
+      "speaker": "candidate",
+      "text": "It was a joint call. I proposed it, but the ops lead had to sign off because some fields fed billing. We kept two of them as optional."
+    },
+    {
+      "t": 262,
+      "speaker": "interviewer",
+      "text": "Thanks. Here's what I heard. On the CEO's doubts, you said you'd find out why past pilots failed, start with one process that has a clear owner and a measured baseline, involve the people who use the tool from the start, and keep a named person accountable for errors. You were open that you couldn't give a number without data, and that the contract side needs legal input. On ownership, you described a scheduling rollout stuck at thirty percent adoption, a field visit that showed a connectivity problem, and changes that brought it to about seventy percent. Is there anything you'd like to add? You can also add it in writing on the next screen. A person will review the transcript and this summary, and you'll hear about next steps from them."
+    },
+    {
+      "t": 294,
+      "speaker": "candidate",
+      "text": "No, I think that covers it. Thanks."
+    }
+  ]
+}

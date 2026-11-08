@@ -1,0 +1,63 @@
+{
+  "criteria": [
+    {
+      "id": "structured_thinking",
+      "observation": "Asked a scoping question before answering. Proposed diagnosing why earlier pilots failed before building anything, and tied any budget request to a measured baseline on one process with a named owner.",
+      "evidence": [
+        { "quote": "Can I ask one thing first: how big is the company, roughly?", "t": 22 },
+        { "quote": "I'd want to spend the first two weeks finding out why the pilots didn't stick.", "t": 48 },
+        { "quote": "We measured it for two cycles before building anything", "t": 84 }
+      ],
+      "gaps": [
+        "Did not say how they would choose between candidate processes beyond \"a clear cost\"."
+      ]
+    },
+    {
+      "id": "honesty_limits",
+      "observation": "Declined to invent an ROI figure, named a gap in their own answer on contracts, and described a past mistake as their own.",
+      "evidence": [
+        { "quote": "I can't give you a credible number without your data", "t": 84 },
+        { "quote": "I don't have a full answer on the contract side.", "t": 154 },
+        { "quote": "That was my miss, I hadn't tested it in the field.", "t": 190 }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "ownership_evidence",
+      "observation": "Described leading a scheduling-tool rollout, the wrong first fix (more training), the field visit that found the cause, and the changes made. Was specific about which decision was shared.",
+      "evidence": [
+        { "quote": "Adoption was about thirty percent after six weeks.", "t": 190 },
+        { "quote": "Adoption got to about seventy percent over the next two months.", "t": 226 },
+        { "quote": "It was a joint call. I proposed it, but the ops lead had to sign off", "t": 248 }
+      ],
+      "gaps": [
+        "Adoption figures are self-reported; how they were measured was not discussed.",
+        "The candidate's own role in the invoice reconciliation example was not stated."
+      ]
+    },
+    {
+      "id": "skeptical_stakeholders",
+      "observation": "Answered each objection with a concrete mechanism rather than reassurance: end users in the design from week one, human approval on customer-facing output, a stop threshold agreed in advance, and early union involvement.",
+      "evidence": [
+        { "quote": "I'd put the planners in the room from week one", "t": 122 },
+        { "quote": "the tool drafts and a named person approves", "t": 154 },
+        { "quote": "I'd want the union rep briefed before the pilot starts, not after.", "t": 154 }
+      ],
+      "gaps": [
+        "When asked for a number, offered a method for getting one rather than a range or estimate."
+      ]
+    }
+  ],
+  "uncertainties": [
+    "The invoice reconciliation result (three days to under one day) was from \"a previous client\"; the candidate's role in it is unclear.",
+    "The risk answer was not followed up, so its depth was not tested."
+  ],
+  "readback": [
+    "Before answering, you asked how big the company was.",
+    "You said you'd spend the first two weeks finding out why earlier AI pilots didn't stick, then start with one process that has a clear cost and an owner.",
+    "Asked for a dollar figure, you said you couldn't give a credible one without data, and described measuring a baseline before building.",
+    "On the failed forecasting pilot, you said the planners should be involved from week one and the output should land in the spreadsheet they already use.",
+    "On risk, you said a named person approves anything customer-facing, a stop threshold is agreed up front, and the union is briefed early. You said the contract side needs legal input.",
+    "You described a scheduling-tool rollout that went from about 30% to about 70% adoption after a field visit, an offline mode, and a shorter form, decided jointly with the ops lead."
+  ]
+}
